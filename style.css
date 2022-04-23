@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Playfair Display', serif;
+    src: url('fonts/PlayfairDisplay-VariableFont_wght.ttf'), format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.hf{
+    font-family: 'Playfair Display', serif;
+}
+.pf{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-color{
+    color: #939CA1 !important;
+}
+.title h3{
+    font-size: 30px;
+    font-weight: 400;
+    color: #95a3a8;
+}
+/* main css */
+body{
+    background: #EEF0F1;
+}
+.navbar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar .navbar-nav a.active{
+    color: #7e868a !important;
+}
+.navbar .navbar-nav .nav-link{
+    font-weight: 600;
+    margin-left: 20px;
+}
+.navbar .navbar-nav .nav-link-bg{
+    padding-left: 16px;
+    padding-right: 16px;
+    background: #879AA1;
+    color: #fff !important;
+    border-radius: 7px;
+}
+.navbar .navbar-nav .nav-link-bg:hover{
+    background: #7b8c92;
+}
+
+/* banner css */
+#banner{
+    background: #c7d2d8;
+}
+#banner .banner-text p{
+    padding-top: 150px;
+    font-size: 20px;
+    color: #5d6265;
+}
+
+/* text section css */
+#text-section{
+    margin-top: 60px;
+}
+#text-section .text{
+    max-width: 40%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#text-section .text p{
+    font-weight: 500;
+}
+#text-section .links span{
+    margin-right: 15px;
+}
+#text-section .links span a{
+   text-decoration: none;
+}
+#text-section .links span a i{
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+/* link boxes */
+#link-boxes{
+    margin-top: 60px;
+}
+#link-boxes .link-box .box{
+    border: 1px solid #c7d2d8;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+#link-boxes .link-box .box .link-list{
+    width: 62%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+#link-boxes .link-box .box .link-list ul{
+    list-style: none;
+}
+#link-boxes .link-box .box .link-list ul li{
+    margin-bottom: 5px;
+}
+#link-boxes .link-box .box .link-list ul li a{
+    text-decoration: none;
+}
+#link-boxes .link-box .box .link-list ul li a i{
+    margin-left: 5px;
+}
+#link-boxes .link-box .box .link-list-small{
+    padding-top: 54px;
+    padding-bottom: 54px;
+}
+
+
+/* split css */
+#split{
+    margin-top: 100px;
+}
+#split .split-list .list{
+    padding-top: 90px;
+}
+#split .split-list .list ul{
+    list-style: none;
+}
+#split .split-list .list ul li{
+    margin-bottom: 8px;
+}
+#split .split-list .list ul li::before{
+    content: "\f00c"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; /* same as padding-left set on li */
+    width: 1.3em; /* same as padding-left set on li */
+}
+
+
+
+/* footer css */
+#footer{
+    background: #879AA1;
+    margin-top: 100px;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px; 
+}
+
+
+/* bottom section */
+#bottom-section{
+    padding-top: 20px;
+}
+
+#bottom-section ul{
+    list-style: none;
+}
+#bottom-section ul li{
+    margin-right: 10px;
+}
+
+/* responsive css */
+@media (max-width: 992px) {
+    .navbar .navbar-nav{
+        text-align: center !important;
+    }
+
+    .navbar .navbar-nav .nav-link-bg{
+        margin-top: 10px;
+    }
+
+    #banner .banner-text{
+        text-align: center !important;
+    }
+
+    #link-boxes .link-box{
+        margin-bottom: 30px;
+    }
+
+    #footer .footer-item{
+        margin-bottom: 30px;
+    }
+    #footer .responsive-item{
+        text-align: left !important;
+    }
+}
