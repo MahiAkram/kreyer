@@ -232,4 +232,8 @@ body{
     #split .split-list{
         margin-top: -45px;
     }
+    .navbar .offcanvas .offcanvas-body .list-group .list-group-item .dropdown-menu{
+        position: relative !important;
+        margin-top: 10px;
+    }
 }
