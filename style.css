@@ -236,4 +236,7 @@ body{
         position: relative !important;
         margin-top: 10px;
     }
+    .navbar .container{
+        max-width: 100% !important;
+    }
 }
